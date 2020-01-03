@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 
-a = pd.read_csv('C:/MLProjects/venv7/vanga-1/btc/BTC-USD.csv', sep=';', usecols=[1, 4])
+f = open('s2s.txt', 'w')
+
+a = pd.read_csv('C:/MLProjects/venv7/BTC-USD.csv', sep=';', usecols=[1, 4])
 print(a.columns)
 # print(a.head())
 
